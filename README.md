@@ -43,9 +43,10 @@ Configure and test basic firewall rules to allow or block traffic.
 10. Test the firewall rule 
    Start a test connection to port 23:
 ```bash
-nc -vz localhost 23  
-   Expected Result: Connection should fail (blocked by firewall)
+nc -vz localhost 23
 ```
+   Expected Result: Connection should fail (blocked by firewall)
+
 
 12. Allow SSH explicitly (for safety)
 ```bash
